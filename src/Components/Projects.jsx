@@ -4,7 +4,7 @@ import React from "react";
 import logo from "../../public/logo.png";
 import Banner from "../../public/Banner.png";
 import Be from "../../public/be.jfif";
-import { Fade } from 'react-reveal';
+
 
 
 function Projects() {
@@ -17,7 +17,7 @@ function Projects() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Projects</h1>
         <span className=" underline font-semibold">Top recent project</span>
-        <Fade top>
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 my-5">
          
           <div
@@ -120,7 +120,7 @@ function Projects() {
           </div>
 
         </div>
-        </Fade>
+    
       </div>
      
     </div>

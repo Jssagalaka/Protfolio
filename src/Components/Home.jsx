@@ -1,7 +1,7 @@
 import React from 'react'
 import pic from '../../public/mypic.jfif'
 import pdf from '../../public/my_cv.pdf'
-import { Fade ,Zoom} from 'react-reveal';
+
 
 
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -25,7 +25,7 @@ function Home() {
           <div className='md:w-1/2 mt-12 md:mt-24 space-y-2'>
             <span className="text-xl">Welcome In My Feed</span>
             <div className='flex space-x-1 text-2xl md:text-4xl'>
-              <Fade right>
+       
               <h1>Hello, I'm a</h1>
               {/* <span className='text-red-700 font-bold'>Developer</span> */}
               <ReactTyped
@@ -35,10 +35,10 @@ function Home() {
                 backSpeed={50}
                 loop={true}
               />
-              </Fade>
+            
             </div>
             <br />
-<Fade bottom>
+
             <div className=" px-6 py-4 space-x-10 justify-around">
               <a
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
@@ -52,7 +52,7 @@ function Home() {
                 My Resume
               </a>
             </div>
-            </Fade>
+       
             <br />
             {/* social media icon */}
             <div
@@ -94,7 +94,7 @@ function Home() {
               </div>
             </div>
           </div>
-<Zoom>
+
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 ">
             <img
               src={pic}
@@ -103,7 +103,7 @@ function Home() {
             />
 
           </div>
-          </Zoom>
+        
         </div>
       </div>
 

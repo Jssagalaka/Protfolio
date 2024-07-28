@@ -1,7 +1,7 @@
 import React from "react";
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
-import { Fade } from 'react-reveal';
+
 
 import javascript from "../../public/javascript.png";
 import express from "../../public/express.png";
@@ -54,7 +54,7 @@ function Experiance() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Skills</h1>
-        <Fade left>
+        
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
             <div
@@ -68,7 +68,7 @@ function Experiance() {
             </div>
           ))}
         </div>
-        </Fade>
+     
       </div>
     </div>
   );
